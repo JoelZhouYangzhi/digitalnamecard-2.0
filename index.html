@@ -21,6 +21,13 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: center;
         }
+        .name-card img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
         .name-card h1 {
             margin: 0;
             font-size: 24px;
@@ -30,14 +37,22 @@
             margin: 5px 0;
             color: #666;
         }
+        .name-card a {
+            color: #666;
+            text-decoration: none;
+        }
+        .name-card a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <div class="name-card">
+        <img src="profile.jpg" alt="Profile Picture">
         <h1>Joel Zhou</h1>
         <p>Associate Director of Sales</p>
-        <p>Email: joel.zhou@manulifefa.com.sg</p>
-        <p>Phone: +65 8383 5002</p>
+        <p>Email: <a href="mailto:joel.zhou@manulifefa.com.sg">joel.zhou@manulifefa.com.sg</a></p>
+        <p>Phone: +64 8393 5002</p>
     </div>
 </body>
 </html>
