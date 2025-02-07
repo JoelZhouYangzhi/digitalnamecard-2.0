@@ -65,7 +65,7 @@ body {
     margin-top: 20px;
 }
 .logos img {
-    width: 15%;
-    max-width: 60px;
+    width: 20%; /* Increased width */
+    max-width: 80px; /* Increased max-width */
     height: auto;
 }
