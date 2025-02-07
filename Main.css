@@ -27,15 +27,15 @@ body {
 }
 .name-card h1 {
     margin: 0;
-    font-size: 5vw; /* Adjusted font size */
-    max-font-size: 24px; /* Adjusted max font size */
+    font-size: 4vw; /* Reduced font size */
+    max-font-size: 20px; /* Reduced max font size */
     color: #333;
 }
 .name-card p {
     margin: 10px 0;
     color: #666;
-    font-size: 3.5vw; /* Adjusted font size */
-    max-font-size: 16px; /* Adjusted max font size */
+    font-size: 3vw; /* Reduced font size */
+    max-font-size: 14px; /* Reduced max font size */
 }
 .name-card a {
     color: #666;
@@ -52,8 +52,8 @@ body {
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 3.5vw; /* Adjusted font size */
-    max-font-size: 16px; /* Adjusted max font size */
+    font-size: 3vw; /* Reduced font size */
+    max-font-size: 14px; /* Reduced max font size */
 }
 .contact-button:hover {
     background-color: #0056b3;
