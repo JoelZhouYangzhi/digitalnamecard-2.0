@@ -19,7 +19,7 @@ body {
 .card {
     width: 100%;
     max-width: 960px;
-    height: 540px; /* Fixed height for the card */
+    height: 600px; /* Increased height for the card */
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.6s;
@@ -54,7 +54,7 @@ body {
 }
 
 .company-logo {
-    width: 80px;
+    width: 120px; /* Increased size for the logo */
     margin-bottom: 10px;
 }
 
