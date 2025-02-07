@@ -51,16 +51,17 @@ body {
 
 .back {
     transform: rotateY(180deg);
+    cursor: pointer; /* Add cursor pointer to indicate clickable */
 }
 
 .company-logo {
-    width: 120px; /* Increased size for the logo */
+    width: 240px; /* Increased size for the logo */
     margin-bottom: 10px;
 }
 
 .profile-photo {
-    width: 100px;
-    height: 100px;
+    width: 200px; /* Increased size for the profile picture */
+    height: 200px;
     border-radius: 50%;
     margin-bottom: 10px;
     object-fit: cover;
