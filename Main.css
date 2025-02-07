@@ -33,8 +33,6 @@ body {
     padding: 20px;
     box-sizing: border-box;
 }
-.flip: #fff;
-}
 .flip-card-back {
     background-color: #007bff;
     color: white;
@@ -55,12 +53,7 @@ body {
 }
 .flip-card-front p {
     margin: 10px 0;
-    color: #666;
-    font-size: 1rem;
-}
-.flip-card-front a {
-    color: #666;
-    text-decoration: none;
+    none;
     font-size: 1rem;
 }
 .flip-card-front a:hover {
