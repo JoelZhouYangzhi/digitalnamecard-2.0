@@ -41,6 +41,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     border-radius: 10px;
+    box-sizing: border-box;
 }
 
 .front {
@@ -52,28 +53,46 @@ body {
 }
 
 .company-logo {
-    width: 100px;
-    margin-bottom: 20px;
+    width: 80px;
+    margin-bottom: 10px;
 }
 
 .profile-photo {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1em;
+    margin: 5px 0;
+    text-align: center;
 }
 
 .contact-button {
     display: inline-block;
     padding: 10px 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     background-color: #007bff;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
+    font-size: 1em;
+}
+
+.partners-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .partners-logos img {
-    width: 80px;
-    margin: 10px;
+    width: 60px;
+    margin: 5px;
 }
