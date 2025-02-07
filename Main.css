@@ -13,13 +13,13 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 50%;
-    max-width: 600px;
+    width: 60%; /* Increased width */
+    max-width: 700px; /* Increased max-width */
     box-sizing: border-box;
 }
 .name-card img {
     border-radius: 50%;
-    width: 30%;
+    width: 25%; /* Adjusted width */
     max-width: 150px;
     height: auto;
     object-fit: cover;
@@ -27,15 +27,15 @@ body {
 }
 .name-card h1 {
     margin: 0;
-    font-size: 6vw;
-    max-font-size: 28px;
+    font-size: 5vw; /* Adjusted font size */
+    max-font-size: 24px; /* Adjusted max font size */
     color: #333;
 }
 .name-card p {
     margin: 10px 0;
     color: #666;
-    font-size: 4vw;
-    max-font-size: 18px;
+    font-size: 3.5vw; /* Adjusted font size */
+    max-font-size: 16px; /* Adjusted max font size */
 }
 .name-card a {
     color: #666;
@@ -52,8 +52,8 @@ body {
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 4vw;
-    max-font-size: 18px;
+    font-size: 3.5vw; /* Adjusted font size */
+    max-font-size: 16px; /* Adjusted max font size */
 }
 .contact-button:hover {
     background-color: #0056b3;
