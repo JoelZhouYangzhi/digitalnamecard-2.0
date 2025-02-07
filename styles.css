@@ -93,6 +93,8 @@ p {
 .flip-button {
     margin-top: 10px;
     cursor: pointer;
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
 }
 
 .partners-logos {
