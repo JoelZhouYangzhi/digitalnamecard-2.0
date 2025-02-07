@@ -88,6 +88,16 @@ p {
     border-radius: 5px;
     font-size: 1em;
     cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.flip-button {
+    background-color: #28a745; /* Green color for the partners button */
+}
+
+.flip-button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
 }
 
 .partners-logos {
