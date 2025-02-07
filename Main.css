@@ -63,7 +63,7 @@ body {
     margin-top: 20px;
 }
 .logos img {
-    width: 30%; /* Increased width */
+    width: 50%; /* Increased width */
     max-width: 120px; /* Increased max-width */
     height: auto;
 }
