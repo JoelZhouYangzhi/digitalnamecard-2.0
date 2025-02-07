@@ -18,7 +18,9 @@ body {
 
 .card {
     width: 100%;
-    height: auto;
+    max-width: 960px;
+    height: 100%;
+    max-height: 540px;
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.6s;
@@ -58,11 +60,11 @@ body {
 }
 
 .profile-photo {
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     margin-bottom: 10px;
-    object-fit: cover; /* Ensures the image fits within the container */
+    object-fit: cover;
 }
 
 h2 {
