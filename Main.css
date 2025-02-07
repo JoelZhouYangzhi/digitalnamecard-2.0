@@ -27,18 +27,18 @@ body {
 }
 .name-card h1 {
     margin: 0;
-    font-size: 2rem; /* Proportional font size */
+    font-size: 2rem;
     color: #333;
 }
 .name-card p {
     margin: 10px 0;
     color: #666;
-    font-size: 1.2rem; /* Proportional font size */
+    font-size: 1.2rem;
 }
 .name-card a {
     color: #666;
     text-decoration: none;
-    font-size: 1.2rem; /* Proportional font size */
+    font-size: 1.2rem;
 }
 .name-card a:hover {
     text-decoration: underline;
@@ -51,7 +51,7 @@ body {
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 1.2rem; /* Proportional font size */
+    font-size: 1.2rem;
 }
 .contact-button:hover {
     background-color: #0056b3;
@@ -63,7 +63,7 @@ body {
     margin-top: 20px;
 }
 .logos img {
-    width: 20%;
-    max-width: 80px;
+    width: 25%; /* Increased width */
+    max-width: 100px; /* Increased max-width */
     height: auto;
 }
