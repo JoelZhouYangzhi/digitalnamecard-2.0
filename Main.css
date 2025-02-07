@@ -10,11 +10,16 @@ body {
 
 .card-container {
     perspective: 1000px;
+    width: 100%;
+    max-width: 960px;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .card {
-    width: 300px;
-    height: 400px;
+    width: 100%;
+    height: auto;
+    max-width: 960px;
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.6s;
