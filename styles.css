@@ -55,7 +55,7 @@ body {
 }
 
 .company-logo {
-    width: 500px; /* Increased size for the logo */
+    width: 120px; /* Reduced size for the logo */
     margin-bottom: 10px;
 }
 
