@@ -1,5 +1,4 @@
-body {
-    font-family: Arial, sans-serif;
+body, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,8 +12,8 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 60%;
-    max-width: 960px;
+    width: 100%; /* Fit screen width */
+    max-width: 960px; /* Maximum width limit */
     box-sizing: border-box;
 }
 .name-card img {
