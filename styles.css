@@ -105,4 +105,5 @@ p {
     width: 100px;
     height: auto; /* Maintain aspect ratio */
     margin: 10px; /* Adjust spacing between logos */
+    object-fit: contain; /* Ensure the images maintain their aspect ratio */
 }
