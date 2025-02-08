@@ -109,6 +109,6 @@ p {
 }
 
 .ifast-logo {
-    width: 80px; /* Reduce the size of the iFast logo */
+    width: 50px; /* Set the width of the iFast logo to 50px */
     object-fit: contain; /* Ensure the iFast logo maintains its aspect ratio */
 }
