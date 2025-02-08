@@ -107,3 +107,8 @@ p {
     margin: 10px; /* Adjust spacing between logos */
     object-fit: contain; /* Ensure the images maintain their aspect ratio */
 }
+
+.ifast-logo {
+    width: 80px; /* Reduce the size of the iFast logo */
+    object-fit: contain; /* Ensure the iFast logo maintains its aspect ratio */
+}
